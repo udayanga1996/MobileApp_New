@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Profile">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/fullnametxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66dp"
+            android:text="Full Name"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="71dp" />
+
+        <TextView
+            android:id="@+id/emailtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="132dp"
+            android:text="Email"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="141dp" />
+
+        <TextView
+            android:id="@+id/telephonetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="187dp"
+            android:text="Telephone No"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="197dp" />
+
+        <TextView
+            android:id="@+id/worktypetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="238dp"
+            android:text="Work Type"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="251dp" />
+
+
+        <Button
+            android:id="@+id/btnCreateInvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/btnChatWithEmployer"
+            android:layout_gravity="center"
+            android:layout_marginStart="35dp"
+            android:background="@drawable/custom_button"
+            android:padding="15dp"
+            android:text="Create Invoice"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <Button
+            android:id="@+id/btnChatWithEmployer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="181dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/custom_button"
+            android:padding="15dp"
+            android:text="Chat With Client"
+            tools:layout_editor_absoluteX="210dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <Button
+            android:id="@+id/btnEndContract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="110dp"
+            android:layout_marginEnd="106dp"
+            android:background="@drawable/custom_button"
+            android:padding="15dp"
+            android:text="End Contract"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="414dp" />
+
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/custom_button"
+            android:text="LogOut"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="503dp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "280250212841",
+    "firebase_url": "https://worknhiremobileapp.firebaseio.com",
+    "project_id": "worknhiremobileapp",
+    "storage_bucket": "worknhiremobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280250212841:android:41624c437b57b182",
+        "android_client_info": {
+          "package_name": "com.example.heyshan.worknhire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280250212841-jt3jbru6mlcv11vllc3rk3ehb7r6rlh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heyshan.worknhire",
+            "certificate_hash": "d805d96b0c1d73648a4c60e916396e7a1304d018"
+          }
+        },
+        {
+          "client_id": "280250212841-7dndb5vql1i84bnpf93die021ubo673h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2eCkdfU_6hi7l-EAGq9usLC5E66VO0JY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280250212841-7dndb5vql1i84bnpf93die021ubo673h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

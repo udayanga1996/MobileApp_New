@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WorkNHire</string>
+
+    <string-array name="position">
+        <item>Plumber</item>
+        <item>Cook</item>
+        <item>ElectricalRepair</item>
+        <item>ACservice</item>
+        <item>Painter</item>
+        <item>Housekeeper</item>
+        <item>Carpenter</item>
+        <item>Others</item>
+    </string-array>
+</resources>

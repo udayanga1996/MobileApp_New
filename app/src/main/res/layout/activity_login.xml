@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundmain"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:weightSum="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Client"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employee" />
+
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/etEmailInLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/email"
+            android:ems="10"
+            android:hint="  Email"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:text="ariyapala@gmail.com"/>
+
+        <EditText
+            android:id="@+id/etPasswordInLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/key"
+            android:textColorHint="#000000"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:ems="10"
+            android:background="@drawable/custom_edittext"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:text="ariyapala"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnLogIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:padding="15dp"
+                android:text="Login" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="forget password?"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:onClick="toForgetPassword"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    tools:context=".FindJob"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPlumber"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button"
+        android:text="Plumber"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnElectricalRepair"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button"
+        android:text="Electrical repair"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnACservice"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button"
+        android:text="AC service"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnPainter"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button"
+        android:text="Painter"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnhouseKeepr"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button"
+        android:text="House keeper"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btncarpenter"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button"
+        android:text="Carpenter"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnCooker"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button"
+        android:text="Cooker"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnOther"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button"
+        android:text="Other"/>
+
+
+
+
+
+</LinearLayout>

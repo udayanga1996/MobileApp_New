@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    android:gravity="center"
+    tools:context=".SignInUser">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:weightSum="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etFirstNameInSignInUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/person"
+            android:hint="  First Name"
+            android:background="@drawable/custom_edittext"
+            android:inputType="text"
+            android:importantForAutofill="no" />
+
+
+        <EditText
+            android:id="@+id/etLastNameSignInUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/person"
+            android:padding="10dp"
+            android:ems="10"
+            android:background="@drawable/custom_edittext"
+            android:hint="  Last Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etEmailInSignInUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/email"
+            android:hint="  Email"
+            android:background="@drawable/custom_edittext"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etMobileNumInSignInUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/key"
+            android:hint=" Mobile Number "
+            android:background="@drawable/custom_edittext"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etPasswordInSignInUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/key"
+            android:ems="10"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/etPasswordInSignInUse2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/key"
+            android:ems="10"
+            android:hint="  Confirm Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSignUpUse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:padding="10dp"
+                android:text="Sign in as Client" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
